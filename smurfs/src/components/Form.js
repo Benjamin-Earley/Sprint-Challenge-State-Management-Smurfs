@@ -34,8 +34,8 @@ const AddForm = (props) => {
             <h2>Add a Smurf to the village</h2>
             <form onSubmit={handleSubmit}>
                 <input type="text" name='name' value={name} placeholder='Name' onChange={handleNameChanges} />
-                <input type="text" name='height' value={height} placeholder='Height' onChange={handleHeightChanges} />
                 <input type="text" name='age' value={age} placeholder='Age' onChange={handleAgeChanges} />
+                <input type="text" name='height' value={height} placeholder='Height' onChange={handleHeightChanges} />
                 <button>Submit</button>
             </form>
         </div>

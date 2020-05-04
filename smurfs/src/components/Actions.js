@@ -25,8 +25,8 @@ export function createSmurf(name, height, age) {
     axios
       .post("http://localhost:3333/smurfs", {
         name: name,
-        height: height,
-        age: age
+        age: age,
+        height: height
       })
       .then(res => {
         dispatch({
